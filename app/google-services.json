@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "776834975758",
+    "firebase_url": "https://taxibeacon-5f92f.firebaseio.com",
+    "project_id": "taxibeacon-5f92f",
+    "storage_bucket": "taxibeacon-5f92f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776834975758:android:95574f5d63c5685a",
+        "android_client_info": {
+          "package_name": "kr.sysgen.taxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776834975758-ruvpr54aev1l2ccmn07m75gad0csigsh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOc_RjaocIZNfCspYZi-PjDt596IdBD4A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

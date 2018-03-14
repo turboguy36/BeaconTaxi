@@ -1,0 +1,32 @@
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/swipeToRefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Fragment.ChildModeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/user_tab_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="000 님은 현재 안심귀가 차량에 탑승 하지 않으셨습니다."
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="@dimen/activity_horizontal_margin"
+            android:numColumns="2"
+            android:verticalSpacing="@dimen/activity_horizontal_margin" />
+    </LinearLayout>
+</android.support.v4.widget.SwipeRefreshLayout>
+

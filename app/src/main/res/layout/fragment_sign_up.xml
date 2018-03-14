@@ -1,0 +1,171 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    tools:context="kr.sysgen.taxi.activity.Fragment.SignUpFragment">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_weight=".3"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/user_photo_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_size_124dp"
+            android:maxHeight="@dimen/image_size_124dp"
+            android:src="@drawable/no_photo" />
+
+        <Button
+            android:id="@+id/modify_photo_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/modify_operation" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/download_iamge"
+            android:visibility="gone"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView
+            android:id="@+id/target_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_size_124dp"
+            android:maxHeight="@dimen/image_size_124dp"
+            android:visibility="gone"
+            android:src="@drawable/no_photo" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".7">
+
+        <EditText
+            android:id="@+id/edittext_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/please_input_name"
+            android:inputType="textPersonName"
+            android:maxLines="1" />
+
+        <LinearLayout
+            android:id="@+id/edittext_phone_number_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edittext_user_name"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edittext_phone_number_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="3"
+                android:inputType="phone"
+                android:gravity="center"
+                android:textColor="@android:color/tertiary_text_light"
+                android:maxLines="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+            <EditText
+                android:id="@+id/edittext_phone_number_middle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="phone"
+                android:gravity="center"
+                android:textColor="@android:color/tertiary_text_light"
+                android:maxLines="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-" />
+
+            <EditText
+                android:id="@+id/edittext_phone_number_tail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="4"
+                android:inputType="phone"
+                android:gravity="center"
+                android:textColor="@android:color/tertiary_text_light"
+                android:maxLines="1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/middle_title_of_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edittext_phone_number_box"
+            android:text="@string/title_choice_sex" />
+
+        <RadioGroup
+            android:id="@+id/radio_text_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/middle_title_of_sex"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <RadioButton
+                android:id="@+id/male_radio_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:checked="true"
+
+                android:text="male" />
+
+            <RadioButton
+                android:id="@+id/female_radio_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:checked="false"
+
+                android:text="female" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/title_of_region"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radio_text_box"
+            android:text="@string/title_of_region" />
+
+        <Spinner
+            android:id="@+id/sido_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_of_region"
+            android:entries="@array/sido"
+            android:prompt="@string/please_select_region" />
+
+        <Button
+            android:id="@+id/sign_up_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sido_spinner"
+            android:layout_centerHorizontal="true"
+            android:text="@string/text_sign_up"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="@dimen/padding_6dp"
+    tools:context="kr.sysgen.taxi.activity.Fragment.SettingsFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text_settings_time"
+        android:textSize="@dimen/text_middle_size" />
+
+    <LinearLayout
+        android:id="@+id/start_time_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="@dimen/padding_8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_start"
+            android:textSize="@dimen/text_size_25" />
+
+        <EditText
+            android:id="@+id/start_time_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding_6dp"
+            android:text="09:00 am" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/from_text"
+            android:textSize="@dimen/text_size_25"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/end_time_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_time_view">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_end"
+            android:textSize="@dimen/text_size_25" />
+
+        <EditText
+            android:id="@+id/end_time_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="07:00 pm" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/to_text"
+            android:textSize="@dimen/text_size_25"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/more_guide"
+        android:layout_below="@+id/end_time_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text_settings_time"
+        android:textSize="@dimen/text_size_18" />
+
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/more_guide"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text_confirm"/>
+</RelativeLayout>

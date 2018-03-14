@@ -1,0 +1,276 @@
+<resources>
+
+    <!-- Do Not Delete or Change -->
+    <string name="server_key">AIzaSyClnTA9Am8aWVzOXQhGXx9AIkr0OYL4SbY</string>
+    <string name="sender_id">776834975758</string>
+    <string name="reco_name">RECO</string>
+    <string name="reco_uuid">24DDF411-8CF1-440C-87CD-E368DAF9C93E</string>
+    <string name="server_client_id">23549805654-3s2vb0o27ngr71in2g93kdn7vches3k9.apps.googleusercontent.com</string>
+    <string name="encoding_utf">utf-8</string>
+    <string name="app_name">TaxiBeacon</string>
+    <string name="app_name_kor">택시 안심 귀가</string>
+    <string name="text_confirm">확인</string>
+    <string name="text_skip">건너뛰기</string>
+    <string name="text_cancel">취소</string>
+    <string name="text_next">다음</string>
+    <string name="push">푸시</string>
+    <string name="monitoring">모니터링</string>
+    <string name="main_fragment_wait">비콘이 설치된 택시를 찾는 중입니다.</string>
+    <string name="app_url_pre">https://play.google.com/store/apps/details?id=</string>
+
+    <string name="title_activity_main">activity main</string>
+    <string name="title_activity_get_contact">activity get contact</string>
+    <string name="title_activity_maps">activity maps</string>
+
+    <!-- Main Activity -->
+    <string name="please_allow_permission">탑승 택시 정보를 얻어 오기 위해 사용 동의를 해 주세요.\n동의하지 않으시면 어플리케이션을 사용 할 수 없습니다.</string>
+    <string name="please_allow_location">탑승 정보를 보호자에게 보내기 위해 \n위치 정보 사용 동의를 해 주세요.\n설정 화면으로 이동합니다.</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!-- Maps Activity -->
+    <string name="reload_button_text">새로고침</string>
+    <string name="maps_activity_title"> 현재 위치확인</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="current_location">현위치</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="text_login">로그인</string>
+
+    <!-- Sign Up Activity -->
+    <string name="parent">보호자</string>
+    <string name="children">택시탑승자</string>
+    <string name="text_sign_up"><u>회원가입</u></string>
+    <string name="please_sign_up">아직 회원이 아닌가요?</string>
+    <string name="text_logout">로그아웃</string>
+    <string name="text_myinfo">내정보확인</string>
+    <string name="please_wait">잠시만 기다려 주십시오.</string>
+    <string name="title_input_name">이름</string>
+    <string name="title_input_phone">전화번호</string>
+    <string name="please_input_name">이름을 입력하세요</string>
+    <string name="please_select_region">지역선택</string>
+    <string name="title_choice_sex">성별</string>
+    <string name="title_of_region">지역</string>
+    <string name="modify_operation">설정</string>
+    <string name="title_of_sign_up">내 정보 입력</string>
+    <string name="message_pick_user">내가 택시에 탔을 때 연락 받을 상대방을 지정 해 주세요.</string>
+    <string name="title_of_dialog">지정 하시겠습니까</string>
+    <string name="message_of_dialog">보호자를 지정 하시겠습니까?</string>
+    <string name="msg_dialog_confirm_again">이 정보로 회원가입 하시겠습니까?</string>
+    <string name="title_alert">알림</string>
+    <string name="message_not_exist_user">가입한 사용자가 아닙니다. 어플리케이션 사용 안내 문자를 보내시겠습니까?</string>
+    <string name="title_complete">완료</string>
+    <string name="message_complete">회원가입이 완료 되었습니다. 보호자 지정 화면으로 이동 합니다.</string>
+    <string name="warning_message_empty">입력 항목이 비어 있습니다.</string>
+    <string name="title_skip">건너뛰기</string>
+    <string name="warning_message_skip">보호자 지정을 건너 뛰겠습니까?</string>
+    <string name="title_set_parent">보호자 지정</string>
+    <string name="message_set_parent_complete">보호자 지정이 완료되었습니다</string>
+    <string name="text_success">성공</string>
+    <string name="text_fail">실패</string>
+    <string name="message_user_not_found">서비스에 가입 되어 있지 않은 사용자 입니다.</string>
+    <string name="title_dialog_alert">알림</string>
+    <string name="message_signed_up_user">이미 가입된 사용자 입니다.</string>
+    <string name="go_to_login_activity">로그인하기</string>
+    <string name="back_and_change_information">정보수정</string>
+    <string name="get_on_taxi_message"> 에 탑승 하셨습니다.</string>
+
+    <!-- JSON KEY -->
+    <string name="parameter">parameter</string>
+    <string name="index">index</string>
+    <string name="search_word">search_word</string>
+    <string name="list">list</string>
+    <string name="sc_type">sc_type</string>
+    <string name="sc_code">sc_code</string>
+    <string name="sc_name">sc_name</string>
+    <string name="sc_addr">sc_addr</string>
+    <string name="app_user_info">app_user_info</string>
+    <string name="user_type">user_type</string>
+    <string name="school_info">school_info</string>
+    <string name="mem_hp_num">mem_hp_num</string>
+    <string name="mem_type">mem_type</string>
+    <string name="mem_name">mem_name</string>
+    <string name="mem_token_id">mem_token_id</string>
+    <string name="mem_os_ver">mem_os_ver</string>
+    <string name="mem_sc_name">mem_sc_name</string>
+    <string name="mem_sc_grade">mem_sc_grade</string>
+    <string name="mem_sc_class">mem_sc_class</string>
+    <string name="mem_sc_no">mem_sc_no</string>
+    <string name="mem_r_key">mem_r_key</string>
+    <string name="result_code">result</string>
+    <string name="relation_code">relation_code</string>
+    <string name="mem_idx">mem_idx</string>
+    <string name="beacon_id">beacon_id</string>
+    <string name="rl_mem_idx1">rl_mem_idx1</string>
+    <string name="rl_mem_type1">rl_mem_type1</string>
+    <string name="rl_mem_ph_num1">rl_mem_ph_num1</string>
+    <string name="rl_mem_idx2">rl_mem_idx2</string>
+    <string name="rl_mem_type2">rl_mem_type2</string>
+    <string name="rl_mem_ph_num2">rl_mem_ph_num2</string>
+    <string name="rl_status">rl_status</string>
+    <string name="rl_date">rl_date</string>
+    <string name="mem_lat">mem_lat</string>
+    <string name="mem_lng">mem_lng</string>
+    <string name="taxi_idx">taxi_idx</string>
+    <string name="taxi_num">taxi_num</string>
+    <string name="taxi_sc_name">taxi_sc_name</string>
+    <string name="taxi_name">taxi_name</string>
+    <string name="taxi_major">taxi_major</string>
+    <string name="taxi_minor">taxi_minor</string>
+    <string name="mem_status">mem_status</string>
+    <string name="mem_loc_date">mem_loc_date</string>
+    <string name="mem_bus_name">mem_bus_name</string>
+    <string name="driver_name">driver_name</string>
+    <string name="notification_param">notification_param</string>
+    <string name="is_parent">isParent</string>
+    <string name="mem_sex">mem_sex</string>
+    <string name="mem_region">mem_region</string>
+    <string name="login_result">login_result</string>
+    <string name="mem_parent_name">mem_parent_name</string>
+    <string name="time_get_on">time_get_on</string>
+    <string name="latitude_get_on">latitude_get_on</string>
+    <string name="longitude_get_on">longitude_get_on</string>
+    <string name="mem_address">mem_address</string>
+    <string name="address_get_off">address_get_off</string>
+    <string name="member_info">member_info</string>
+    <string name="app_version">app_version</string>
+    <string name="history_idx">history_index</string>
+    <string name="tracking_array">tracking_array</string>
+    <string name="tracking_result">tracking_result</string>
+    <string name="time">time</string>
+
+    <!-- Error Message -->
+    <string name="error_message">error_message</string>
+    <string name="error_message_400">잘못된 요청입니다. 관리자에게 문의 해 주세요</string>
+    <string name="error_message_500">서비스를 제공하는 서버에 문제가 있습니다. 관리자에게 문의 해 주세요</string>
+    <string name="error_time_out">서버 연결 시간이 초과 되었습니다. 관리자에게 문의 해 주세요.</string>
+
+    <!-- Sysgen Location -->
+    <string name="init_latitude">35.8158848</string>
+    <string name="init_longitude">127.1030275</string>
+
+    <!-- JSP files -->
+    <string name="school_search">/tm/join_school_search.jsp</string>
+    <string name="join_result">/tm/join_result.jsp</string>
+    <string name="login">/tm/login.jsp</string>
+    <string name="login_no_rkey">/tm/login_no_rkey.jsp</string>
+    <string name="check_r_key">/tm/checkRkey.jsp</string>
+    <string name="check_status_student">/pa/check_status_student.jsp</string>
+    <string name="check_in">/dr/check_in.jsp</string>
+    <string name="check_on">/dr/check_on.jsp</string>
+    <string name="check_out">/dr/check_out.jsp</string>
+    <string name="upload_image">/media/uploadImg.jsp</string>
+    <string name="setParent">/tm/setParent.jsp</string>
+    <string name="isExistUser">/tm/isExistUser.jsp</string>
+    <string name="getMyChildren">/tm/getMyChildren.jsp</string>
+    <string name="getMyInfo">/tm/getMyInfo.jsp</string>
+    <string name="getTaxiInfo">/tm/getTaxiInfo.jsp</string>
+    <string name="getMyParents">/tm/getMyParents.jsp</string>
+    <string name="getUserLocation">/pa/getUserLocation.jsp</string>
+    <string name="deleteParent">/tm/deleteParent.jsp</string>
+    <string name="getUserHistory">/tm/getUserHistory.jsp</string>
+    <string name="setMyLocation">/tm/setMyLocation.jsp</string>
+    <string name="getAllTaxiList">/tm/getAllTaxiList.jsp</string>
+    <string name="getTracking">/tm/getTracking.jsp</string>
+    <string name="getUserTaxiInfoHistory">/tm/getUserTaxiInfoHistory.jsp</string>
+    <string name="sendInvitation">/tm/sendInvitation.jsp</string>
+    <string name="getUsersInfo">/tm/getUsersInfo.jsp</string>
+
+    <!-- Push Message -->
+    <string name="title_push">택시에 탑승 하셨습니다.</string>
+    <string name="message_push"> 차량에 탑승 하셨습니다. 안심 메시지를 보내려면 클릭하세요.</string>
+    <string name="from_push_tag">from_push</string>
+    <string name="title_push_out">택시에서 하차 하셨습니다.</string>
+    <string name="message_push_out">택시에서 하차 하셨습니다. 안심 메시지를 보냈습니다.</string>
+
+    <!-- Error Message -->
+    <string name="error_bluetooth_not_supported">블루투스가 지원되지 않습니다.</string>
+    <string name="empty_text">주변에 감지되는 택시가 없습니다.</string>
+
+    <!-- History Fragment -->
+    <string name="title_of_fragment"> 님의 탑승 이력</string>
+
+    <!-- Parent Mode Fragment -->
+    <string name="state_on">탑승중</string>
+    <string name="state_out">하차</string>
+    <string name="add_parent">추가하기</string>
+    <string name="dialog_title_add_parent">보호자를 추가 하시겠습니까?</string>
+    <string name="title_show_my_parent_fragment">나의 보호자 리스트</string>
+    <string name="have_no_child">나를 보호자로 지정한 사용자가 없습니다.</string>
+    <string name="alert_dialog_message_off_taxi">택시에 탑승 중인 사용자가 아닙니다.</string>
+
+    <!-- ChildModeFragment -->
+    <string name="message_not_find_car">님은 현재 안심귀가 차량에 탑승 하지 않으셨습니다.</string>
+    <string name="message_found_car">님은 현재 안심귀가 차량에 탑승 하셨습니다.</string>
+    <string name="delete">삭제</string>
+    <string name="want_to_delete">님을 나의 보호자에서 삭제 하시겠습니까?</string>
+
+    <!-- PickMyPartnerFragment -->
+    <string name="pick_my_partner_title">보호자 지정</string>
+
+    <!-- MyLocationMapActivity -->
+    <string name="my_location">위치주소</string>
+    <string name="date_format">"yyyy/MM/dd HH:mm:ss"</string>
+    <string name="taxi_information">택시정보</string>
+    <string name="on_taxi">경로보기</string>
+
+    <!-- SlideMenuActivity -->
+    <string name="want_to_logout">로그아웃 하시겠습니까?</string>
+    <string name="please_add_user">사용자를 추가 해 주세요.</string>
+    <string name="notification">공지사항</string>
+    <string name="my_page">마이페이지</string>
+    <string name="guide">이용안내</string>
+    <string name="call_center">고객센터</string>
+    <string name="want_to_invite_child">님을 초대 하시겠습니까?</string>
+    <string name="please_add_child">+ 버튼을 눌러 자녀 초대 하기</string>
+
+    <!-- GetContact Activity -->
+    <string name="title_get_contact">내 자녀 초대</string>
+    <string name="most_recent_history">최근 탑승 기록</string>
+    <string name="show_tracking">최근경로보기</string>
+    <string name="marker_depart">출발</string>
+    <string name="marker_current">현재위치</string>
+    <string name="tracking_title">이동 경로 확인</string>
+    <string name="user_history">탑승 이력</string>
+
+    <!-- UserHistoryActivity -->
+    <string name="history_fragment_title">택시 탑승 이력</string>
+
+    <!-- SettingsFragment -->
+    <string name="fragment_setting_title">알람 사용 시간 설정</string>
+    <string name="title_dialog_start">시작 시간 설정</string>
+    <string name="title_dialog_end">종료 시간 설정</string>
+    <string name="title_am">AM</string>
+    <string name="title_pm">PM</string>
+    <string name="hour_format">HH:mm</string>
+    <string name="text_settings_time">지정한 시간 동안만 위치를 전송합니다.</string>
+    <string name="text_start">시작 : </string>
+    <string name="text_end">종료 : </string>
+    <string name="from_text">부터</string>
+    <string name="to_text">까지</string>
+    <string name="location_information_start">location_information_start</string>
+    <string name="location_information_end">location_information_end</string>
+    <string name="title_dialog_confirm">시간 설정</string>
+    <string name="message_dialog_confirm">아래 시간 대로 설정 하시겠습니까?</string>
+
+    <!-- GetContactActivityFragment -->
+    <string name="message_invitation">님께서 당신의 보호자로 등록 신청 하셨습니다.\n아래 링크를 눌러 확인 하세요.\n</string>
+    <string name="search_hint">이름, 전화번호로 찾기</string>
+    <string name="has_invitation_message">has_invitation</string>
+    <string name="invitation_user_index_array">invitation_user_index_array</string>
+    <string name="invitation_user_index_object">invitation_user_index_object</string>
+
+    <!-- Invitation Fragment -->
+    <string name="text_accept">수락하기</string>
+    <string name="title_invitation_toolbar">보호자 초대를 수락 해 주세요</string>
+    <string name="invitation_empty_text">도착한 초대 메시지가 없습니다</string>
+</resources>

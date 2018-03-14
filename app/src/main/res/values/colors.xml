@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColorDark">#000000</color>
+    <color name="background_yellow">#ffcc00</color>
+    <color name="background_yellow_dark">#ffffaa22</color>
+    <color name="background_gray">#d3d3d3</color>
+
+    <color name="white_dark">#ccffffff</color>
+
+    <!-- map -->
+    <color name="map_stroke">#aa3f51B5</color>
+    <color name="map_shade">#443f51B5</color>
+
+    <!-- background colors -->
+    <color name="background_dark_transparent">#aa000000</color>
+    <color name="background_gray_transparent">#cc777777</color>
+    <color name="background_white_transparent">#ccffffff</color>
+    <color name="background_light_gray">#ff777777</color>
+    <color name="background_dark_gray">#ff555555</color>
+    <color name="background_splash">#ff78CDDC</color>
+</resources>

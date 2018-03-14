@@ -1,0 +1,36 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- sign up -->
+    <dimen name="padding_6dp">6dp</dimen>
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="padding_16dp">16dp</dimen>
+    <dimen name="padding_32dp">32dp</dimen>
+    <dimen name="padding_48dp">48dp</dimen>
+    <dimen name="padding_64dp">64dp</dimen>
+    <dimen name="size_32dp">32dp</dimen>
+    <dimen name="size_48dp">48dp</dimen>
+    <dimen name="size_64dp">64dp</dimen>
+    <dimen name="size_72dp">72dp</dimen>
+    <dimen name="size_96dp">96dp</dimen>
+    <dimen name="size_128dp">128dp</dimen>
+    <dimen name="text_size_32sp">32sp</dimen>
+    <dimen name="image_size_124dp">124dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="layout_vertical_margin">8dp</dimen>
+
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_middle">16sp</dimen>
+
+    <dimen name="text_large_size">40dp</dimen>
+    <dimen name="text_middle_size">30sp</dimen>
+    <dimen name="text_size_25">25sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+
+</resources>

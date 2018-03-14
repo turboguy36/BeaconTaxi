@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".activity.Fragment.PickMyPartnerFragment">
+
+    <TextView
+        android:id="@+id/input_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_large"
+        android:text="@string/message_pick_user" />
+
+    <TextView
+        android:id="@+id/title_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input_user_name"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="@string/title_input_name"/>
+    <EditText
+        android:id="@+id/edittext_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/please_input_name"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:layout_below="@+id/title_name_text"/>
+
+    <TextView
+        android:id="@+id/title_input_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/edittext_user_name"
+        android:text="@string/title_input_phone"/>
+    <LinearLayout
+        android:id="@+id/edittext_phone_number_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_input_phone"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edittext_phone_number_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:inputType="phone"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+        <EditText
+            android:id="@+id/edittext_phone_number_middle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="4"
+            android:inputType="phone"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-" />
+
+        <EditText
+            android:id="@+id/edittext_phone_number_tail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="4"
+            android:inputType="phone"
+            android:maxLines="1" />
+    </LinearLayout>
+</RelativeLayout>

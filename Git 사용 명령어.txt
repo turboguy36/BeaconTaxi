@@ -1,0 +1,30 @@
+﻿/*
+* PROJECT_NAME : BeaconTaxi.git
+*/
+새로운 프로젝트 만들기
+
+A. SERVER 측
+1. server 에 접속
+2. su -
+3. cd /opt/projects
+4. mkdir $PROJECT_NAME$
+4.1 cd $PROJECT_NAME$
+5. git init --bare --shared
+6. chown -R git:git /opt/projects
+
+B. LOCAL 측
+- SourceTree 에서
+1. 복제/생성 (Clone/New)
+Source Path / URL : ssh://git@www.sysgen.kr:/opt/projects/BeaconTaxi.git
+2. Destination Path:
+자신의 Workspace 입력
+
+- gitbash 에서 id_rsa, id_rsa.pub 만들기
+1. cd ~
+2. mkdir .ssh
+3. ssh-keygen
+4. 만들어진 id_rsa.pub 를 서버로 전송(FTP)
+
+C. 다시 SERVER 측
+방금 올린 id_rsa.pub 을 원래 있던 authorized_keys 에 append 하는 과정
+- cat id_rsa.pub >> ~/hoem/git/.ssh/authorized_keys

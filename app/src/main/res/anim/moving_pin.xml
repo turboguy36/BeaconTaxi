@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+        <item android:drawable="@drawable/tracking_pin" android:duration="200"/>
+        <item android:drawable="@drawable/tracking_pin_on" android:duration="200"/>
+    </animation-list>
+</set>

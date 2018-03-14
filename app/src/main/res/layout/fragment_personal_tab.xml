@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingTop="@dimen/padding_32dp">
+
+    <RelativeLayout
+        android:id="@+id/top_box_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/padding_32dp"
+        android:layout_marginEnd="@dimen/padding_32dp"
+        android:layout_marginStart="@dimen/padding_32dp"
+        android:padding="@dimen/padding_6dp">
+
+        <ImageView
+            android:id="@+id/button_person"
+            android:layout_width="@dimen/size_96dp"
+            android:layout_height="@dimen/size_96dp"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:background="@drawable/circle_background_white"
+            android:padding="@dimen/padding_8dp"
+            android:src="@drawable/person_gray" />
+
+        <ImageView
+            android:id="@+id/button_sms"
+            android:layout_width="@dimen/size_72dp"
+            android:layout_height="@dimen/size_72dp"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/button_person"
+            android:background="@drawable/rounded_background_gray"
+            android:src="@drawable/conversation" />
+
+        <ImageView
+            android:id="@+id/button_call"
+            android:layout_width="@dimen/size_72dp"
+            android:layout_height="@dimen/size_72dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/button_person"
+            android:background="@drawable/rounded_background_gray"
+            android:src="@drawable/call" />
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/map_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_box"
+        android:layout_below="@+id/top_box_layout"
+        android:layout_marginBottom="@dimen/padding_16dp">
+
+        <Button
+            android:id="@+id/open_map_bigger"
+            android:layout_width="@dimen/size_32dp"
+            android:layout_height="@dimen/size_32dp"
+            android:layout_gravity="start"
+            android:layout_margin="@dimen/padding_6dp"
+            android:background="@drawable/selector_expand_button"
+            android:gravity="center"
+            android:padding="@dimen/padding_6dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/current_location"
+            android:layout_width="@dimen/size_32dp"
+            android:layout_height="@dimen/size_32dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="@dimen/padding_6dp"
+            android:layout_marginTop="@dimen/padding_48dp"
+            android:background="@drawable/selector_current_button"
+            android:gravity="center"
+            android:visibility="gone" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/no_location_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_box"
+        android:layout_below="@+id/top_box_layout"
+        android:background="@color/background_dark_transparent"
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/padding_16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_middle_size"
+            android:text="위치정보 제공에 동의 하지 않은 사용자입니다."/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/text_box"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_128dp"
+        android:layout_above="@+id/bottom_box"
+        android:layout_below="@+id/top_box_layout"
+        android:layout_marginBottom="@dimen/padding_16dp"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:background="@drawable/rounded_background_dark"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/action_sign_in"
+            android:textColor="@android:color/white" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/padding_16dp"
+        android:layout_marginEnd="@dimen/padding_16dp"
+        android:layout_marginStart="@dimen/padding_16dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/show_route"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/size_64dp"
+            android:layout_marginRight="@dimen/padding_8dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_white"
+            android:gravity="center"
+            android:text="@string/show_tracking"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium.Inverse"
+            android:textColor="@android:color/black"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/show_history"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/size_64dp"
+            android:layout_marginLeft="@dimen/padding_8dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_button_yellow"
+            android:gravity="center"
+            android:text="@string/user_history"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium.Inverse"
+            android:textColor="@android:color/black"
+            android:visibility="visible" />
+    </LinearLayout>
+</RelativeLayout>

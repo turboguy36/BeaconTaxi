@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/notification"
+            android:title="@string/notification"
+            android:icon="@drawable/menu_noti"/>
+        <item
+            android:id="@+id/my_page"
+            android:title="@string/my_page"
+            android:icon="@drawable/menu_mypage"/>
+        <item
+            android:id="@+id/settings"
+            android:title="@string/modify_operation"
+            android:icon="@drawable/action_settings"/>
+        <item
+            android:id="@+id/call_center"
+            android:title="@string/call_center"
+            android:icon="@drawable/menu_mail"/>
+        <item
+            android:id="@+id/log_out"
+            android:title="@string/text_logout"
+            android:icon="@drawable/power_button"/>
+    </group>
+</menu>

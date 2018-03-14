@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="kr.sysgen.taxi.activity.MainActivity">
+    <item
+        android:id="@+id/confirm_signup"
+        android:orderInCategory="100"
+        android:title="@string/text_sign_up"
+        app:showAsAction="always" />
+
+</menu>

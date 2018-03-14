@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    tools:context=".activity.Fragment.GetContactActivityFragment"
+    tools:showIn="@layout/activity_get_contact">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/contacts_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="LinearLayoutManager"
+        tools:listitem="@layout/list_item_contacts"
+        android:layout_below="@+id/search_view_parent"
+        android:scrollbars="vertical"
+        android:paddingTop="@dimen/padding_6dp" />
+
+    <RelativeLayout
+        android:id="@+id/search_view_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="@dimen/padding_8dp"
+        android:paddingBottom="@dimen/padding_8dp"
+        android:background="@color/background_yellow"
+        android:elevation="@dimen/padding_6dp">
+
+        <TextView
+            android:id="@+id/search_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:textSize="@dimen/text_size"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/padding_16dp"
+            android:layout_marginLeft="@dimen/padding_16dp"
+            android:text="검색" />
+
+        <SearchView
+            android:id="@+id/search_view_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/search_text"
+            android:layout_marginRight="@dimen/padding_8dp"
+            android:background="@drawable/circle_background_white_small" />
+    </RelativeLayout>
+
+</RelativeLayout>

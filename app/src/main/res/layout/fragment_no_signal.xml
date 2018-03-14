@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:paddingTop="60dp"
+    tools:context="kr.sysgen.taxi.activity.Fragment.NoSignalFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="비콘 신호가 감지 되지 않았습니다."
+        android:id="@+id/textView"
+        android:layout_gravity="center" />
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_large_size"
+        android:layout_gravity="center"
+        android:text="돌아가기"/>
+
+</LinearLayout>

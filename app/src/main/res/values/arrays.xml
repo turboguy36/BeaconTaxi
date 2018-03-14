@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="preferences">
+        <item>@string/mem_hp_num</item>
+        <item>@string/mem_name</item>
+        <item>@string/mem_r_key</item>
+        <item>@string/mem_idx</item>
+        <item>@string/beacon_id</item>
+        <item>@string/app_version</item>
+        <item>@string/mem_status</item>
+        <item>@string/location_information_start</item>
+        <item>@string/location_information_end</item>
+        <item>@string/has_invitation_message</item>
+    </string-array>
+
+    <integer-array name="beacon_minors">
+        <item>14815</item>
+        <item>14816</item>
+        <item>14817</item>
+    </integer-array>
+
+    <string-array name="sido">
+        <item>전라북도</item>
+        <item>전라남도</item>
+        <item>충청남도</item>
+        <item>충청북도</item>
+    </string-array>
+
+    <string-array name="grid_button_group">
+        <item>택시정보</item>
+        <item>내 위치 확인</item>
+        <item>보호자 지정</item>
+        <item>비상연락</item>
+    </string-array>
+
+    <string-array name="dialog_choice">
+        <item>탑승 이력 보기</item>
+        <item>현재 위치 보기</item>
+        <item>취소</item>
+    </string-array>
+    <string-array name="dialog_choice_off">
+        <item>탑승 이력 보기</item>
+
+        <item>취소</item>
+    </string-array>
+</resources>
